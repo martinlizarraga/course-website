@@ -1,0 +1,139 @@
+/* Home.css */
+
+/* Global Styling */
+.home-page {
+    padding: 80px 50px;
+    background-color: #fff;
+    color: #333;
+}
+
+h2,
+h3 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #111;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+button.cta-button {
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #e50914;
+    /* Bold red color for button */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.cta-button:hover {
+    background-color: #b50d10;
+    /* Darker red on hover */
+}
+
+/* Section Styling */
+.intro-section {
+    margin-bottom: 40px;
+}
+
+.features-section ul {
+    margin-left: 20px;
+}
+
+.model-image-section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.model-image {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.model-image:hover {
+    transform: scale(1.05);
+    /* Zoom effect on hover */
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    margin-top: 60px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.testimonial span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e50914;
+    margin-top: 10px;
+}
+
+/* Call to Action Section */
+.cta-section {
+    text-align: center;
+    margin-top: 60px;
+    background-color: #e50914;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.cta-section h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-page {
+        padding: 50px 20px;
+    }
+
+    .model-image {
+        width: 100%;
+    }
+
+    .cta-section h3 {
+        font-size: 28px;
+    }
+
+    .cta-section p {
+        font-size: 18px;
+    }
+}
